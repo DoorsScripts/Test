@@ -643,7 +643,7 @@ local Entities = {
 			local Damage = Args.Damage or 10
 			local Room = workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]
 
-			local Eyes = Instance.new("Part", workspace)
+			local Eyes = Instance.new("Model", workspace)
 			Eyes.Transparency = 1
 			local Sound = Instance.new("Sound", Eyes)
 
